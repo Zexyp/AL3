@@ -20,7 +20,7 @@ Algoritmus bych rozdělil na tři (čtyři) nejdůležitější části:
 Při spracování bylo využito jazyka **C#** a technologie **Windows Forms**.
 Obě možnsti nabízeli rychlé protypování a jednoduchý přítup ke kreslícím funkcím.
 
-Hlavní část kódu se nachází v souboru [`MainForm.cs`](./src/MainForm.cs) v metoďe [`DrawSpiral`](./src/MainForm.cs#L82-L104)
+Hlavní část kódu se nachází v souboru [`MainForm.cs`](./src/MainForm.cs) v metodě [`DrawSpiral`](./src/MainForm.cs#L82-L104)
 
 ## **Popis rozhraní**
 V aplikaci lze nalézt dva posuvníky pro úpravu délky hrany a mezer mezi hranami.\
