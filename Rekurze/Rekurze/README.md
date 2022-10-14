@@ -29,5 +29,5 @@ V aplikaci lze nalézt dva posuvníky pro úpravu délky hrany a mezer mezi hran
 ## **Závěr**
 ![alt](./doc/img/conclusion.png)
 
-U většiny problémů kde se nabízí možnost rekurze rád použiji běžný cyklus.
+U většiny problémů, kde se nabízí možnost rekurze rád použiji běžný cyklus.
 S rekurzí se spokojím snad jen v případech s procházením stromové struktury.
