@@ -5,4 +5,5 @@ This is a repository with my school homeworks...
 Email username: `sprypa`
 
 ### List of readmes I haven't forgot to put here
-[Rekurze](./Rekurze/Rekurze/README.md)
+- [Rekurze](/Rekurze/Rekurze/README.md)
+- [Sorty](/Sorty/README.md)
