@@ -23,19 +23,19 @@
 ## Selection sort
 Průchodem hledáme největší nebo nejmenší prvek. Když ho najdeme tak ho zařadíme na začátek nebo konec a o tuto část zmenšíme příští hledání. Opakujeme dokud pole není seřazené.
 
-[Kód](/SelektioSort/Program.cs)
+[Kód](./SelektioSort/Program.cs)
 
 
 ## Bubble sort
 Procházíme dokud není seřazeno. Vždy vememe `n`-tý a `n+1`-tý prvek a porovnáme je. Pokud zjistíme, že nám pořadí nevyhovuje, tak je vyměníme. Lehčí prvky nám tedy probublávají na konec.
 
-[Kód](/BaubySort/Program.cs)
+[Kód](./BaubySort/Program.cs)
 
 
 ## Insertion sort
 Na každém prvku zkontroluje jestli by mohl sedět v řadě. Pokud ne, tak ťapeme zpátky dokud nenajdeme vhodné místo pro vložení vybraného prveku.
 
-[Kód](/HateInsertKeySort/Program.cs)
+[Kód](./HateInsertKeySort/Program.cs)
 
 
 ## Heap sort
@@ -59,7 +59,7 @@ Datová struktura, jejíž graf se podobá opravdovému živému stromu. Každý
 \
 <img src="assets/tree.png"  width="60%">
 
-[Kód](/HaldaSort/Program.cs)
+[Kód](./HaldaSort/Program.cs)
 
 
 ## Merge sort
@@ -71,13 +71,13 @@ Rekurzivně dělíme prvky až se dostaneme k jednoduchému porovnávání. Cest
 ### Princip slévání
 Máme dvě kolekce prvků, které potřebujeme slét. Držíme si tedy pozici z první, z druhé a pozici pro destinaci. Porovnáme prvky na kterých stojíme v prvním a druhém zdroji a vložíme do cíle. Pozice samozřejmě příslušně změníme.
 
-[Kód](/MargeSort/Program.cs)
+[Kód](./MargeSort/Program.cs)
 
 
 ## Quick sort
 Vybereme si jeden prvek (klidně náhodný). Podle tohoto prvku nyní budeme rozdělovat zbytek na menší a větší. Stejně se pak chováme k oboum polovinám.
 
-[Kód](/QuickieSort/Program.cs)
+[Kód](./QuickieSort/Program.cs)
 
 
 ## Counting sort
@@ -86,17 +86,17 @@ Vybereme si jeden prvek (klidně náhodný). Podle tohoto prvku nyní budeme roz
 ### Optimalizace
 ...
 
-[Kód](/CounterProductiveSort/Program.cs)
+[Kód](./CounterProductiveSort/Program.cs)
 
 
 # Kód
-- [Selection sort](/SelektioSort/Program.cs)
-- [Bubble sort](/BaubySort/Program.cs)
-- [Insertion sort](/HateInsertKeySort/Program.cs)
-- [Heap sort](/HaldaSort/Program.cs)
-- [Merge sort](/MargeSort/Program.cs)
-- [Quick sort](/QuickieSort/Program.cs)
-- [Counting sort](/CounterProductiveSort/Program.cs)
+- [Selection sort](./SelektioSort/Program.cs)
+- [Bubble sort](./BaubySort/Program.cs)
+- [Insertion sort](./HateInsertKeySort/Program.cs)
+- [Heap sort](./HaldaSort/Program.cs)
+- [Merge sort](./MargeSort/Program.cs)
+- [Quick sort](./QuickieSort/Program.cs)
+- [Counting sort](./CounterProductiveSort/Program.cs)
 
 # Porovnání složitostí
 | Sort      | Časová      | Prostorová |
