@@ -8,7 +8,7 @@ namespace HaldaSort
 {
     public static class Program
     {
-        public  static void HaldaSort<T>(T[] array) where T : IComparable<T>
+        public static void HaldaSort<T>(T[] array) where T : IComparable<T>
         {
             int index = array.Length - 1;
             // procházíme pozadu

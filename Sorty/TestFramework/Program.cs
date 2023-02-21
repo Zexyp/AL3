@@ -37,7 +37,7 @@ namespace TestFramework
                 Random random = new Random();
                 for (int i = 0; i < array.Length; i++)
                 {
-                    array[i] = (uint)random.Next(0, 100);
+                    array[i] = random.Next(0, 100);
                 }
 
                 CounterProductiveSort.Program.CounterProductiveSort(array);
