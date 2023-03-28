@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SelektioSort", "SelektioSor
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HateInsertKeySort", "HateInsertKeySort\HateInsertKeySort.csproj", "{C16329C4-620D-452B-8DE8-380A0BACC3CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickieSort", "QuickieSort\QuickieSort.csproj", "{70341026-80D1-4989-9146-8E935433654A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickieSort", "QuickieSort\QuickieSort.csproj", "{70341026-80D1-4989-9146-8E935433654A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterProductiveSort", "CounterProductiveSort\CounterProductiveSort.csproj", "{FC5E1E21-F84C-47FD-AD6E-4BEEB59CC66F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CounterProductiveSort", "CounterProductiveSort\CounterProductiveSort.csproj", "{FC5E1E21-F84C-47FD-AD6E-4BEEB59CC66F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabulatorNeeded", "TabulatorNeeded\TabulatorNeeded.csproj", "{73A1AEA2-D3A0-4C69-9755-CC68A59BF192}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{FC5E1E21-F84C-47FD-AD6E-4BEEB59CC66F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC5E1E21-F84C-47FD-AD6E-4BEEB59CC66F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC5E1E21-F84C-47FD-AD6E-4BEEB59CC66F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73A1AEA2-D3A0-4C69-9755-CC68A59BF192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73A1AEA2-D3A0-4C69-9755-CC68A59BF192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73A1AEA2-D3A0-4C69-9755-CC68A59BF192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73A1AEA2-D3A0-4C69-9755-CC68A59BF192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

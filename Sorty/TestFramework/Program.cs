@@ -54,7 +54,7 @@ namespace TestFramework
             Random random = new Random();
             for (int i = 0; i < array.Length; i++)
             {
-                array[i] = random.Next(int.MinValue, int.MaxValue);
+                array[i] = random.Next(-10, 10);
             }
 
             
@@ -80,6 +80,8 @@ namespace TestFramework
                 Console.ResetColor();
                 Debug.Assert(false);
             }
+
+            Console.WriteLine(String.Join(", ", array));
         }
 
         static bool IsSorted<T>(T[] array) where T : IComparable<T>
